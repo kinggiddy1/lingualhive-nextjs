@@ -1,0 +1,204 @@
+@import "tailwindcss" source(none);
+@source "..";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * LingualHive design system.
+ * Brand: deep navy + gold honeycomb + magenta accent + ruby tagline.
+ * Typography: Fraunces (display, editorial serif) + Inter (body).
+ */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-gold: var(--gold);
+  --color-gold-foreground: var(--gold-foreground);
+  --color-magenta: var(--magenta);
+  --color-magenta-foreground: var(--magenta-foreground);
+  --color-ruby: var(--ruby);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ring-offset-background: var(--background);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --radius: 0.75rem;
+
+  /* Surfaces */
+  --background: oklch(0.985 0.005 240);
+  --foreground: oklch(0.18 0.05 265);
+
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.18 0.05 265);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.18 0.05 265);
+
+  /* Primary = LingualHive deep navy/blue */
+  --primary: oklch(0.36 0.16 268);
+  --primary-foreground: oklch(0.985 0.005 240);
+
+  /* Secondary = soft cream */
+  --secondary: oklch(0.96 0.018 85);
+  --secondary-foreground: oklch(0.22 0.06 268);
+
+  --muted: oklch(0.955 0.01 250);
+  --muted-foreground: oklch(0.45 0.03 260);
+
+  --accent: oklch(0.94 0.04 85);
+  --accent-foreground: oklch(0.22 0.06 268);
+
+  /* Brand: amber/gold honeycomb */
+  --gold: oklch(0.82 0.16 82);
+  --gold-foreground: oklch(0.22 0.06 268);
+
+  /* Brand: magenta wordmark accent */
+  --magenta: oklch(0.58 0.24 340);
+  --magenta-foreground: oklch(0.985 0.005 240);
+
+  /* Brand: ruby tagline */
+  --ruby: oklch(0.48 0.18 18);
+
+  --destructive: oklch(0.577 0.245 27);
+  --destructive-foreground: oklch(0.985 0.005 240);
+
+  --border: oklch(0.9 0.015 255);
+  --input: oklch(0.9 0.015 255);
+  --ring: oklch(0.58 0.18 268);
+
+  --chart-1: oklch(0.36 0.16 268);
+  --chart-2: oklch(0.82 0.16 82);
+  --chart-3: oklch(0.58 0.24 340);
+  --chart-4: oklch(0.48 0.18 18);
+  --chart-5: oklch(0.6 0.12 200);
+
+  /* Gradients & shadows */
+  --gradient-hero: linear-gradient(135deg, oklch(0.22 0.08 268) 0%, oklch(0.34 0.16 270) 55%, oklch(0.48 0.2 320) 100%);
+  --gradient-gold: linear-gradient(135deg, oklch(0.86 0.16 88), oklch(0.72 0.18 60));
+  --shadow-elegant: 0 20px 50px -20px color-mix(in oklab, oklch(0.22 0.08 268) 35%, transparent);
+  --shadow-glow: 0 0 60px color-mix(in oklab, oklch(0.82 0.16 82) 40%, transparent);
+}
+
+.dark {
+  --background: oklch(0.16 0.045 268);
+  --foreground: oklch(0.97 0.01 240);
+  --card: oklch(0.22 0.06 268);
+  --card-foreground: oklch(0.97 0.01 240);
+  --popover: oklch(0.22 0.06 268);
+  --popover-foreground: oklch(0.97 0.01 240);
+  --primary: oklch(0.82 0.16 82);
+  --primary-foreground: oklch(0.18 0.05 268);
+  --secondary: oklch(0.28 0.06 268);
+  --secondary-foreground: oklch(0.97 0.01 240);
+  --muted: oklch(0.26 0.05 268);
+  --muted-foreground: oklch(0.72 0.03 250);
+  --accent: oklch(0.3 0.08 320);
+  --accent-foreground: oklch(0.97 0.01 240);
+  --gold: oklch(0.82 0.16 82);
+  --gold-foreground: oklch(0.18 0.05 268);
+  --magenta: oklch(0.66 0.24 340);
+  --magenta-foreground: oklch(0.97 0.01 240);
+  --ruby: oklch(0.6 0.2 18);
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 16%);
+  --ring: oklch(0.72 0.16 82);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+
+  /* Accessibility — visible focus for keyboard users */
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  /* Skip link */
+  .skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 1rem;
+    z-index: 100;
+    background: var(--primary);
+    color: var(--primary-foreground);
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+  }
+  .skip-link:focus {
+    left: 1rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer utilities {
+  .bg-hero-gradient { background: var(--gradient-hero); }
+  .bg-gold-gradient { background: var(--gradient-gold); }
+  .shadow-elegant { box-shadow: var(--shadow-elegant); }
+  .shadow-glow { box-shadow: var(--shadow-glow); }
+
+  .honeycomb-pattern {
+    background-image:
+      radial-gradient(circle at 25% 25%, color-mix(in oklab, var(--gold) 20%, transparent) 1px, transparent 1px),
+      radial-gradient(circle at 75% 75%, color-mix(in oklab, var(--magenta) 15%, transparent) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+}
