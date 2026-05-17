@@ -102,8 +102,8 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <Mail className="mt-0.5 h-4 w-4 shrink-0 text-gold" aria-hidden="true" />
-                <a href="mailto:hello@lingualhive.rw" className="hover:text-gold">
-                  hello@lingualhive.rw
+                <a href="mailto:info@lingualhive.com" className="hover:text-gold">
+                  info@lingualhive.com
                 </a>
               </li>
               <li className="flex items-start gap-2">

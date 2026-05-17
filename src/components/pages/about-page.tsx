@@ -66,7 +66,7 @@ export function AboutPage() {
             <p className="mt-4 text-muted-foreground">
               Founded in Kigali, LingualHive grew from a simple conviction: African voices deserve to be heard everywhere,
               in every language. Today we serve ministries, multilateral institutions, NGOs, and global enterprises operating
-              across the continent — combining human craft with modern translation technology.
+              across the continent combining human craft with modern translation technology.
             </p>
             <div className="mt-6 grid gap-4 sm:grid-cols-2">
               <div className="rounded-xl border border-border bg-card p-5">

@@ -19,7 +19,7 @@ export const translations: Record<Lang, Dict> = {
 
     "hero.eyebrow": "From words to wisdom",
     "hero.title": "Language solutions that lead the way across Africa.",
-    "hero.subtitle": "LingualHive delivers professional translation, interpretation, localization and language consultancy — connecting Rwanda and the world in any language, any market.",
+    "hero.subtitle": "LingualHive delivers professional translation, interpretation, localization and language consultancy connecting Rwanda and the world in any language, any market.",
     "hero.cta.primary": "Request a quote",
     "hero.cta.secondary": "Explore services",
 
@@ -71,7 +71,7 @@ export const translations: Record<Lang, Dict> = {
     "contact.hours": "Working hours",
     "contact.hoursValue": "Mon–Fri, 8:00–18:00 CAT",
 
-    "footer.tagline": "From words to wisdom — we lead the way.",
+    "footer.tagline": "From words to wisdom we lead the way.",
     "footer.company": "Company",
     "footer.services": "Services",
     "footer.legal": "Legal",

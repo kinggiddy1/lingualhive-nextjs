@@ -53,8 +53,8 @@ export function ContactPage() {
                   <div className="text-sm font-semibold uppercase tracking-wider text-muted-foreground">
                     {t("contact.email.label")}
                   </div>
-                  <a href="mailto:hello@lingualhive.rw" className="mt-1 block text-foreground hover:text-magenta">
-                    hello@lingualhive.rw
+                  <a href="mailto:info@lingualhive.com" className="mt-1 block text-foreground hover:text-magenta">
+                    info@lingualhive.com
                   </a>
                 </div>
               </li>
