@@ -19,9 +19,9 @@ export function Footer() {
             <p className="mt-3 max-w-xs text-sm text-primary-foreground/75">{t("footer.tagline")}</p>
             <div className="mt-6 flex gap-3" aria-label={t("footer.follow")}>
               {[
-                { Icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-                { Icon: Facebook, href: "https://facebook.com", label: "Facebook" },
-                { Icon: Instagram, href: "https://instagram.com", label: "Instagram" },
+                // { Icon: Linkedin, href: "https://x.com/Lingual_Hive/", label: "LinkedIn" },
+                { Icon: Facebook, href: "https://web.facebook.com/profile.php?id=61576306305116/", label: "Facebook" },
+                { Icon: Instagram, href: "https://www.instagram.com/lingual_hive/", label: "Instagram" },
               ].map(({ Icon, href, label }) => (
                 <a
                   key={label}
@@ -35,7 +35,7 @@ export function Footer() {
                 </a>
               ))}
               <a
-                href="https://x.com"
+                href="https://x.com/Lingual_Hive/"
                 aria-label="X"
                 target="_blank"
                 rel="noopener noreferrer"
