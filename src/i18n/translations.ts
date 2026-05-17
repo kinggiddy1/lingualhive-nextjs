@@ -69,7 +69,7 @@ export const translations: Record<Lang, Dict> = {
     "contact.phone": "Phone",
     "contact.email.label": "Email",
     "contact.hours": "Working hours",
-    "contact.hoursValue": "Mon–Fri, 8:00–18:00 CAT",
+    "contact.hoursValue": "Mon–Fri, 9:00–17:00 GMT +2",
 
     "footer.tagline": "From words to wisdom we lead the way.",
     "footer.company": "Company",
