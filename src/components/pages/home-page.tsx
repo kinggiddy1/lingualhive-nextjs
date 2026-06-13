@@ -92,6 +92,44 @@ export function HomePage() {
         </div>
       </section>
 
+      <section className="bg-background py-24">
+        <div className="mx-auto grid max-w-7xl gap-14 px-4 md:px-8 lg:grid-cols-2 lg:items-center">
+          <div className="relative">
+            <img
+              src="/assets/about-team.jpg"
+              alt="LingualHive interpreter at work"
+              className="rounded-2xl object-cover"
+              width={1280}
+              height={960}
+              loading="lazy"
+            />
+          </div>
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-magenta">{t("about.eyebrow")}</p>
+            <h2 className="mt-3 font-display text-4xl font-semibold md:text-5xl">{t("about.title")}</h2>
+            <p className="mt-5 text-lg leading-relaxed text-muted-foreground">{t("about.body")}</p>
+            <ul className="mt-6 space-y-3">
+              {[
+                "Native African linguists across 50+ languages",
+                "Certified ISO-grade quality processes",
+                "Confidentiality and data protection by default",
+                "Accessibility-first delivery (WCAG 2.1 AA)",
+              ].map((item) => (
+                <li key={item} className="flex items-start gap-3 text-foreground/85">
+                  <Check className="mt-1 h-5 w-5 shrink-0 text-gold" aria-hidden="true" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+            <Button asChild className="mt-8 bg-primary hover:bg-primary/90">
+              <Link href="/about">
+                {t("about.cta")} <ArrowRight className="ml-1 h-4 w-4" />
+              </Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-secondary/40 py-24">
         <div className="mx-auto max-w-7xl px-4 md:px-8">
           <div className="max-w-2xl">

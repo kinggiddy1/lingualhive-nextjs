@@ -3,7 +3,7 @@ export type Lang = "en" | "fr" | "rw";
 export const LANGS: { code: Lang; label: string; native: string }[] = [
   { code: "en", label: "English", native: "EN" },
   { code: "fr", label: "Français", native: "FR" },
-  { code: "rw", label: "Kinyarwanda", native: "RW" },
+  { code: "rw", label: "Kiswahili", native: "SW" },
 ];
 
 type Dict = Record<string, string>;
