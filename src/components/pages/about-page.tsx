@@ -62,23 +62,21 @@ export function AboutPage() {
             loading="lazy"
           />
           <div>
-            <h2 className="font-display text-3xl font-semibold md:text-4xl">Our story</h2>
+            <h2 className="font-display text-3xl font-semibold md:text-4xl">{t("about.story")}</h2>
             <p className="mt-4 text-muted-foreground">
-              Founded in Kigali, LingualHive grew from a simple conviction: African voices deserve to be heard everywhere,
-              in every language. Today we serve ministries, multilateral institutions, NGOs, and global enterprises operating
-              across the continent combining human craft with modern translation technology.
+              {t("about.body.story")}
             </p>
             <div className="mt-6 grid gap-4 sm:grid-cols-2">
               <div className="rounded-xl border border-border bg-card p-5">
-                <div className="font-display text-3xl font-bold text-magenta">Our mission</div>
+                <div className="font-display text-3xl font-bold text-magenta">{t("about.mission")}</div>
                 <p className="mt-2 text-sm text-muted-foreground">
-                  Break down language barriers and unlock opportunity for African organisations and the partners they serve.
+                 {t("about.body.mission")}
                 </p>
               </div>
               <div className="rounded-xl border border-border bg-card p-5">
-                <div className="font-display text-3xl font-bold text-gold">Our vision</div>
+                <div className="font-display text-3xl font-bold text-gold">{t("about.vision")}</div>
                 <p className="mt-2 text-sm text-muted-foreground">
-                  Be Africa&apos;s most trusted language partner — pioneering inclusive, technology-enabled language solutions.
+                  {t("about.body.vision")}
                 </p>
               </div>
             </div>

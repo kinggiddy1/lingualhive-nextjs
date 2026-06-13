@@ -62,6 +62,13 @@ export const translations: Record<Lang, Dict> = {
     "about.body": "LingualHive is a Kigali-based language, communication, and events firm helping organizations connect, engage, and create impact. Through professional linguistic services, strategic communications, and event solutions, we bridge language and cultural barriers.",
     "about.cta": "Read our story",
 
+    "about.story": "Our story",
+    "about.body.story": "Founded in Kigali, Rwanda, LingualHive emerged from years of experience in translation, interpretation, strategic communications, community engagement, and event coordination. We witnessed firsthand how a well-translated document could unlock understanding, how a skilled interpreter could bridge cultures, how a strategic communication campaign could inspire action, and how a well-organized event could bring people together around a shared vision.",
+    "about.mission": "Mission",
+    "about.body.mission": "To deliver integrated language, communication and events solutions that empower organizations to communicate with clarity, inclusivity, and cultural intelligence, enabling meaningful engagement and measurable impact across diverse linguistic and cultural environments.",
+    "about.vision": "Vision",
+    "about.body.vision": "To become a leading African center of excellence in language, events and communication solutions, recognized for advancing inclusive communication, bridging linguistic divides, and driving sustainable impact across communities and institutions globally.",
+
     "cta.title": "Ready to be heard, everywhere?",
     "cta.subtitle": "Get a tailored quote within 24 hours.",
     "cta.button": "Start your project",
@@ -161,6 +168,14 @@ export const translations: Record<Lang, Dict> = {
     "about.body": "LingualHive est une agence spécialisée dans les langues, la communication et l'événementiel, basée à Kigali, qui aide les organisations à créer des liens, à susciter l'engagement et à générer un impact. Grâce à des services linguistiques professionnels, à des stratégies de communication et à des solutions événementielles, nous surmontons les barrières linguistiques et culturelles.",
     "about.cta": "Notre histoire",
 
+    "about.story": "Notre histoire",
+    "about.body.story": "Fondée à Kigali, au Rwanda, LingualHive est le fruit de nombreuses années d’expérience dans les domaines de la traduction, de l’interprétation, de la communication stratégique, de l’engagement communautaire et de la coordination d’événements. Nous avons pu constater par nous-mêmes à quel point un document bien traduit peut faciliter la compréhension, comment un interprète compétent peut jeter des ponts entre les cultures, comment une campagne de communication stratégique peut inciter à l’action, et comment un événement bien organisé peut rassembler les gens autour d’une vision commune.",
+    "about.mission": "Mission",
+    "about.body.mission": "Fournir des solutions intégrées en matière de langues, de communication et d'événements qui permettent aux organisations de communiquer avec clarté, dans un esprit d'inclusion et en faisant preuve d'intelligence culturelle, afin de favoriser un engagement constructif et d'avoir un impact mesurable dans des environnements linguistiques et culturels variés.",
+    "about.vision": "Vision",
+    "about.body.vision": "Devenir un centre d'excellence africain de premier plan dans le domaine des langues, de l'événementiel et des solutions de communication, reconnu pour promouvoir une communication inclusive, combler les fossés linguistiques et générer un impact durable au sein des communautés et des institutions du monde entier.",
+
+
     "cta.title": "Prêt à être entendu, partout ?",
     "cta.subtitle": "Obtenez un devis personnalisé sous 24 heures.",
     "cta.button": "Démarrer votre projet",
@@ -256,8 +271,8 @@ export const translations: Record<Lang, Dict> = {
     "about.cta2": "Hadithi Yetu",
 
     "about.eyebrow": "Kuri LingualHive",
-    "about.title": "Ijwi rya Afurika, mu rurimi urwo arirwo rwose.",
-    "about.body": "LingualHive Ltd ni isosiyete y'u Rwanda itanga ibisubizo by'indimi, ifite icyicaro i Kigali. Duhuza ubumenyi bwimbitse bw'indimi n'ikoranabuhanga rigezweho kugira ngo dukureho inzitizi z'ururimi.",
+    "about.title": "Kuongeza sauti, kuunganisha jamii, kuleta athari.",
+    "about.body": "LingualHive ni kampuni ya lugha, mawasiliano, na matukio yenye makao yake Kigali inayosaidia mashirika kuungana, kushirikiana, na kuleta athari. Kupitia huduma za kitaalamu za lugha, mawasiliano ya kimkakati, na suluhisho za matukio, tunavuka vizuizi vya lugha na utamaduni.",
     "about.cta": "Soma inkuru yacu",
 
     "cta.title": "Witeguye kumvikana ahantu hose?",
