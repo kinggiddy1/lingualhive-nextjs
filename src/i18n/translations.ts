@@ -58,8 +58,8 @@ export const translations: Record<Lang, Dict> = {
     "about.cta2": "Read our story",
 
     "about.eyebrow": "About LingualHive",
-    "about.title": "Africa's voice, in every language.",
-    "about.body": "LingualHive Ltd is a Rwandan language solutions company headquartered in Kigali. We combine deep linguistic expertise with modern technology to break down language barriers for governments, multilateral institutions, NGOs and global enterprises operating across the continent.",
+    "about.title": "Amplifying voices, connecting communities, creating impact.",
+    "about.body": "LingualHive is a Kigali-based language, communication, and events firm helping organizations connect, engage, and create impact. Through professional linguistic services, strategic communications, and event solutions, we bridge language and cultural barriers.",
     "about.cta": "Read our story",
 
     "cta.title": "Ready to be heard, everywhere?",
@@ -157,8 +157,8 @@ export const translations: Record<Lang, Dict> = {
     "about.cta2": "Lire notre histoire",
 
     "about.eyebrow": "À propos de LingualHive",
-    "about.title": "La voix de l'Afrique, dans toutes les langues.",
-    "about.body": "LingualHive est une agence spécialisée dans les langues, la communication et l'événementiel, qui propose des services linguistiques professionnels, des solutions de communication stratégiques et des services de gestion d'événements.",
+    "about.title": "Faire entendre les voix, créer des liens entre les communautés, générer un impact.",
+    "about.body": "LingualHive est une agence spécialisée dans les langues, la communication et l'événementiel, basée à Kigali, qui aide les organisations à créer des liens, à susciter l'engagement et à générer un impact. Grâce à des services linguistiques professionnels, à des stratégies de communication et à des solutions événementielles, nous surmontons les barrières linguistiques et culturelles.",
     "about.cta": "Notre histoire",
 
     "cta.title": "Prêt à être entendu, partout ?",
