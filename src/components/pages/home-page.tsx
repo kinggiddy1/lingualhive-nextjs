@@ -97,7 +97,6 @@ export function HomePage() {
           
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-magenta">{t("about.eyebrow1")}</p>
-            {/* <h2 className="mt-3 font-display text-4xl font-semibold md:text-5xl">{t("about.title1")}</h2> */}
             <p className="mt-5 text-lg leading-relaxed text-muted-foreground">{t("about.body1")}</p><br /><br /><br />
 
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-magenta">{t("about.eyebrow2")}</p>
