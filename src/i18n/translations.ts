@@ -275,6 +275,14 @@ export const translations: Record<Lang, Dict> = {
     "about.body": "LingualHive ni kampuni ya lugha, mawasiliano, na matukio yenye makao yake Kigali inayosaidia mashirika kuungana, kushirikiana, na kuleta athari. Kupitia huduma za kitaalamu za lugha, mawasiliano ya kimkakati, na suluhisho za matukio, tunavuka vizuizi vya lugha na utamaduni.",
     "about.cta": "Soma inkuru yacu",
 
+    "about.story": "Hadithi yetu",
+    "about.body.story": "Ikiwa ilianzishwa Kigali, Rwanda, LingualHive ilitokana na uzoefu wa miaka mingi katika tafsiri ya maandishi, utafsiri wa mdomo, mawasiliano ya kimkakati, ushirikishwaji wa jamii, na uratibu wa matukio. Tulishuhudia wenyewe jinsi hati iliyotafsiriwa vizuri ilivyoweza kuleta uelewa, jinsi mfasiri stadi alivyoweza kuunganisha tamaduni, jinsi kampeni ya mawasiliano ya kimkakati ilivyoweza kuhamasisha hatua, na jinsi tukio lililoandaliwa vizuri lilivyoweza kuwaleta watu pamoja chini ya dira moja.",
+    "about.mission": "Dhamira",
+    "about.body.mission": "Kutoa suluhisho jumuishi za lugha, mawasiliano na matukio zinazowawezesha mashirika kuwasiliana kwa uwazi, ujumuishi, na akili ya kitamaduni, na hivyo kuwezesha ushiriki wenye maana na athari zinazoweza kupimika katika mazingira mbalimbali ya lugha na kitamaduni.",
+    "about.vision": "Dira",
+    "about.body.vision": "Kuwa kituo kikuu cha Afrika cha ubora katika suluhisho za lugha, matukio na mawasiliano, kinachotambulika kwa kukuza mawasiliano jumuishi, kuziba pengo la lugha, na kuleta athari endelevu katika jamii na taasisi duniani kote.",
+
+
     "cta.title": "Witeguye kumvikana ahantu hose?",
     "cta.subtitle": "Saba igiciro cyagenewe wowe mu masaha 24.",
     "cta.button": "Tangira umushinga wawe",
