@@ -177,7 +177,7 @@ export function HomePage() {
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-magenta">{t("about.eyebrow")}</p>
             <h2 className="mt-3 font-display text-4xl font-semibold md:text-5xl">{t("about.title")}</h2>
             <p className="mt-5 text-lg leading-relaxed text-muted-foreground">{t("about.body")}</p>
-            <ul className="mt-6 space-y-3">
+            {/* <ul className="mt-6 space-y-3">
               {[
                 "Native African linguists across 50+ languages",
                 "Certified ISO-grade quality processes",
@@ -189,7 +189,7 @@ export function HomePage() {
                   <span>{item}</span>
                 </li>
               ))}
-            </ul>
+            </ul> */}
             <Button asChild className="mt-8 bg-primary hover:bg-primary/90">
               <Link href="/about">
                 {t("about.cta")} <ArrowRight className="ml-1 h-4 w-4" />

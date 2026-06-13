@@ -236,7 +236,7 @@ export const translations: Record<Lang, Dict> = {
     "hero.cta.primary": "Saba igiciro",
     "hero.cta.secondary": "Reba serivisi",
 
-    "trust.title": "Twizewe na minisiteri, ONG n'amasosiyete y'isi yose",
+    "trust.title": "Inaaminika na wizara, NGOs na chapa za kimataifa.",
 
     "services.eyebrow": "Ibyo dukora",
     "services.title": "Serivisi z'indimi zuzuye",
@@ -270,10 +270,10 @@ export const translations: Record<Lang, Dict> = {
     "about.body2": "LingualHive ni kampuni yenye madhumuni inayojihusisha na lugha, mawasiliano, na matukio, inayotoa huduma za kitaalamu za lugha, suluhisho za kimkakati za mawasiliano, na usimamizi wa matukio.",
     "about.cta2": "Hadithi Yetu",
 
-    "about.eyebrow": "Kuri LingualHive",
+    "about.eyebrow": "Kuhusu LingualHive",
     "about.title": "Kuongeza sauti, kuunganisha jamii, kuleta athari.",
     "about.body": "LingualHive ni kampuni ya lugha, mawasiliano, na matukio yenye makao yake Kigali inayosaidia mashirika kuungana, kushirikiana, na kuleta athari. Kupitia huduma za kitaalamu za lugha, mawasiliano ya kimkakati, na suluhisho za matukio, tunavuka vizuizi vya lugha na utamaduni.",
-    "about.cta": "Soma inkuru yacu",
+    "about.cta": "Hadithi yetu",
 
     "about.story": "Hadithi yetu",
     "about.body.story": "Ikiwa ilianzishwa Kigali, Rwanda, LingualHive ilitokana na uzoefu wa miaka mingi katika tafsiri ya maandishi, utafsiri wa mdomo, mawasiliano ya kimkakati, ushirikishwaji wa jamii, na uratibu wa matukio. Tulishuhudia wenyewe jinsi hati iliyotafsiriwa vizuri ilivyoweza kuleta uelewa, jinsi mfasiri stadi alivyoweza kuunganisha tamaduni, jinsi kampeni ya mawasiliano ya kimkakati ilivyoweza kuhamasisha hatua, na jinsi tukio lililoandaliwa vizuri lilivyoweza kuwaleta watu pamoja chini ya dira moja.",
