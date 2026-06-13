@@ -17,9 +17,9 @@ export const translations: Record<Lang, Dict> = {
     "nav.contact": "Contact",
     "nav.quote": "Get a quote",
 
-    "hero.eyebrow": "From words to wisdom",
+    "hero.eyebrow": "With care and commitment",
     "hero.title": "Language solutions that lead the way across Africa.",
-    "hero.subtitle": "LingualHive delivers professional translation, interpretation, localization and language consultancy connecting Rwanda and the world in any language, any market.",
+    "hero.subtitle": "We deliver end-to-end solutions that combine professional language services, communication strategy, and event execution to support organizations in conveying their messages effectively, reaching diverse and multilingual audiences, and fostering inclusive participation across all levels of society.",
     "hero.cta.primary": "Request a quote",
     "hero.cta.secondary": "Explore services",
 
@@ -71,7 +71,7 @@ export const translations: Record<Lang, Dict> = {
     "contact.hours": "Working hours",
     "contact.hoursValue": "Mon–Fri, 9:00–17:00 GMT +2",
 
-    "footer.tagline": "From words to wisdom we lead the way.",
+    "footer.tagline": "With care and commitment we lead the way.",
     "footer.company": "Company",
     "footer.services": "Services",
     "footer.legal": "Legal",
@@ -108,7 +108,7 @@ export const translations: Record<Lang, Dict> = {
 
     "hero.eyebrow": "Des mots à la sagesse",
     "hero.title": "Des solutions linguistiques qui ouvrent la voie en Afrique.",
-    "hero.subtitle": "LingualHive offre des services professionnels de traduction, d'interprétation, de localisation et de conseil linguistique — reliant le Rwanda et le monde, dans toutes les langues.",
+    "hero.subtitle": "Nous proposons des solutions complètes alliant services linguistiques professionnels, stratégie de communication et exécution d'événements afin d'aider les organisations à transmettre efficacement leurs messages, à toucher des publics diversifiés et multilingues, et à favoriser une participation inclusive à tous les niveaux de la société.",
     "hero.cta.primary": "Demander un devis",
     "hero.cta.secondary": "Découvrir nos services",
 
@@ -188,8 +188,8 @@ export const translations: Record<Lang, Dict> = {
     "skip": "Aller au contenu principal",
   },
   rw: {
-    "nav.home": "Ahabanza",
-    "nav.about": "Abo turi bo",
+    "nav.home": "Nyumbani",
+    "nav.about": "Kuhusu",
     "nav.services": "Serivisi",
     "nav.industries": "Inzego",
     "nav.contact": "Twandikire",
@@ -197,7 +197,7 @@ export const translations: Record<Lang, Dict> = {
 
     "hero.eyebrow": "Kuva mu magambo kugeza ku bwenge",
     "hero.title": "Ibisubizo by'indimi biyobora inzira muri Afurika.",
-    "hero.subtitle": "LingualHive itanga serivisi z'ubuhanga zo guhindura indimi, gusobanura, no kujyana ibikorwa ku isoko ry'imbere mu gihugu — duhuza u Rwanda n'isi mu rurimi urwo arirwo rwose.",
+    "hero.subtitle": "Tunatoa suluhisho kamili zinazochanganya huduma za kitaalamu za lugha, mkakati wa mawasiliano, na utekelezaji wa matukio ili kusaidia mashirika katika kuwasilisha ujumbe wao kwa ufanisi, kufikia hadhira mbalimbali na za lugha nyingi, na kukuza ushiriki jumuishi katika ngazi zote za jamii.",
     "hero.cta.primary": "Saba igiciro",
     "hero.cta.secondary": "Reba serivisi",
 

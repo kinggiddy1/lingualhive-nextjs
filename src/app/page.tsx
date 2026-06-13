@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "Professional translation, interpretation and localization services from Kigali, Rwanda. Trusted by ministries, NGOs and global enterprises across Africa.",
   openGraph: {
     title: "LingualHive — Language Solutions Across Africa",
-    description: "From words to wisdom — language solutions that lead the way across Africa.",
+    description: "With care and commitment — language solutions that lead the way across Africa.",
   },
 };
 
