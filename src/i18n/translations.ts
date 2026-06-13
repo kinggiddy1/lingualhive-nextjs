@@ -47,6 +47,16 @@ export const translations: Record<Lang, Dict> = {
     "stats.clients": "Happy clients",
     "stats.experts": "Expert linguists",
 
+    "about.eyebrow1": "Our Promise",
+    "about.title1": "Africa's voice, in every language.",
+    "about.body1": "In every project, we prioritize confidentiality, consistency, and responsiveness, while adapting our solutions to meet the unique needs of each client and context",
+    "about.cta1": "Read our story",
+
+    "about.eyebrow2": "Who We Are",
+    "about.title2": "Africa's voice, in every language.",
+    "about.body2": "LingualHive is a purpose-driven language, communication, and events firm that delivers professional linguistic services, strategic communication solutions, and event management.",
+    "about.cta2": "Read our story",
+
     "about.eyebrow": "About LingualHive",
     "about.title": "Africa's voice, in every language.",
     "about.body": "LingualHive Ltd is a Rwandan language solutions company headquartered in Kigali. We combine deep linguistic expertise with modern technology to break down language barriers for governments, multilateral institutions, NGOs and global enterprises operating across the continent.",
@@ -136,9 +146,19 @@ export const translations: Record<Lang, Dict> = {
     "stats.clients": "Clients satisfaits",
     "stats.experts": "Linguistes experts",
 
+    "about.eyebrow1": "Promesse",
+    "about.title1": "La voix de l'Afrique, dans toutes les langues.",
+    "about.body1": "Dans chaque projet, nous accordons la priorité à la confidentialité, à la cohérence et à la réactivité, tout en adaptant nos solutions pour répondre aux besoins uniques de chaque client et de chaque contexte.",
+    "about.cta1": "Lire notre histoire",
+
+    "about.eyebrow2": "Qui nous sommes",
+    "about.title2": "La voix de l'Afrique, dans toutes les langues.",
+    "about.body2": "LingualHive est une entreprise axée sur la mission, spécialisée dans les langues, la communication et les événements, qui propose des services linguistiques professionnels, des solutions de communication stratégique et de la gestion d'événements.",
+    "about.cta2": "Lire notre histoire",
+
     "about.eyebrow": "À propos de LingualHive",
     "about.title": "La voix de l'Afrique, dans toutes les langues.",
-    "about.body": "LingualHive Ltd est une société rwandaise de solutions linguistiques basée à Kigali. Nous combinons une expertise linguistique approfondie et des technologies modernes pour faire tomber les barrières de la langue.",
+    "about.body": "LingualHive est une agence spécialisée dans les langues, la communication et l'événementiel, qui propose des services linguistiques professionnels, des solutions de communication stratégiques et des services de gestion d'événements.",
     "about.cta": "Notre histoire",
 
     "cta.title": "Prêt à être entendu, partout ?",
