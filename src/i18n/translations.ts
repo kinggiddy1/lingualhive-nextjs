@@ -216,7 +216,7 @@ export const translations: Record<Lang, Dict> = {
     "nav.quote": "Saba igiciro",
 
     "hero.eyebrow": "Kuva mu magambo kugeza ku bwenge",
-    "hero.title": "Ibisubizo by'indimi biyobora inzira muri Afurika.",
+    "hero.title": "Suluhisho za lugha zinazoongoza njia barani Afrika.",
     "hero.subtitle": "Tunatoa suluhisho kamili zinazochanganya huduma za kitaalamu za lugha, mkakati wa mawasiliano, na utekelezaji wa matukio ili kusaidia mashirika katika kuwasilisha ujumbe wao kwa ufanisi, kufikia hadhira mbalimbali na za lugha nyingi, na kukuza ushiriki jumuishi katika ngazi zote za jamii.",
     "hero.cta.primary": "Saba igiciro",
     "hero.cta.secondary": "Reba serivisi",
@@ -244,6 +244,16 @@ export const translations: Record<Lang, Dict> = {
     "stats.projects": "Imishinga yatanzwe",
     "stats.clients": "Abakiriya banyuzwe",
     "stats.experts": "Impuguke z'indimi",
+
+    "about.eyebrow1": "Ahadi yetu",
+    "about.title1": "La voix de l'Afrique, dans toutes les langues.",
+    "about.body1": "Katika kila mradi, tunaweka kipaumbele usiri, uthabiti, na mwitikio, huku tukibadilisha suluhisho zetu ili kukidhi mahitaji ya kipekee ya kila mteja na muktadha.",
+    "about.cta3": "Hadithi Yetu",
+
+    "about.eyebrow2": "Sisi ni nani",
+    "about.title2": "La voix de l'Afrique, dans toutes les langues.",
+    "about.body2": "LingualHive ni kampuni yenye madhumuni inayojihusisha na lugha, mawasiliano, na matukio, inayotoa huduma za kitaalamu za lugha, suluhisho za kimkakati za mawasiliano, na usimamizi wa matukio.",
+    "about.cta2": "Hadithi Yetu",
 
     "about.eyebrow": "Kuri LingualHive",
     "about.title": "Ijwi rya Afurika, mu rurimi urwo arirwo rwose.",

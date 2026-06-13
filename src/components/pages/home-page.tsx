@@ -106,7 +106,7 @@ export function HomePage() {
 
             <Button asChild className="mt-8 bg-primary hover:bg-primary/90">
               <Link href="/about">
-                {t("about.cta")} <ArrowRight className="ml-1 h-4 w-4" />
+                {t("about.cta2")} <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </Button>
           </div>
