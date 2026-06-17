@@ -327,6 +327,6 @@ export const translations: Record<Lang, Dict> = {
     "industries.tech": "Ikoranabuhanga n'uburezi",
     "industries.tech.desc": "Guhindura porogaramu, e-learning, edtech.",
 
-    "skip": "Simbukira ku ibirimo nyamukuru",
+    "skip": "Simbukira ku ibirimo ",
   },
 };
