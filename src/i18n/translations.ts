@@ -69,6 +69,20 @@ export const translations: Record<Lang, Dict> = {
     "about.vision": "Vision",
     "about.body.vision": "To become a leading African center of excellence in language, events and communication solutions, recognized for advancing inclusive communication, bridging linguistic divides, and driving sustainable impact across communities and institutions globally.",
 
+    "about.one": "Our story",
+    "about.oneone": "Founded in Kigali, Rwanda, LingualHive emerged from years of experience in translation, interpretation, strategic communications, community engagement, and event coordination. We witnessed firsthand how a well-translated document could unlock understanding, how a skilled interpreter could bridge cultures, how a strategic communication campaign could inspire action, and how a well-organized event could bring people together around a shared vision.",
+    "about.two": "Mission",
+    "about.twotwo": "To deliver integrated language, communication and events solutions that empower organizations to communicate with clarity, inclusivity, and cultural intelligence, enabling meaningful engagement and measurable impact across diverse linguistic and cultural environments.",
+    "about.three": "Vision",
+    "about.threethree": "To become a leading African center of excellence in language, events and communication solutions, recognized for advancing inclusive communication, bridging linguistic divides, and driving sustainable impact across communities and institutions globally.",
+    "about.four": "Vision",
+    "about.fourfour": "To become a leading African center of excellence in language, events and communication solutions, recognized for advancing inclusive communication, bridging linguistic divides, and driving sustainable impact across communities and institutions globally.",
+    "about.five": "Vision",
+    "about.fivefive": "To become a leading African center of excellence in language, events and communication solutions, recognized for advancing inclusive communication, bridging linguistic divides, and driving sustainable impact across communities and institutions globally.",
+    "about.six": "Vision",
+    "about.sixsix": "To become a leading African center of excellence in language, events and communication solutions, recognized for advancing inclusive communication, bridging linguistic divides, and driving sustainable impact across communities and institutions globally.",
+
+
     "cta.title": "Ready to be heard, everywhere?",
     "cta.subtitle": "Get a tailored quote within 24 hours.",
     "cta.button": "Start your project",
