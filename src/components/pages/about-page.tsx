@@ -90,7 +90,7 @@ const values = [
         <div className="mx-auto max-w-7xl px-4 md:px-8">
           <div className="max-w-2xl">
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-magenta">What guides us</p>
-            <h2 className="mt-3 font-display text-4xl font-semibold md:text-5xl">{t("about.two")}</h2>
+            <h2 className="mt-3 font-display text-4xl font-semibold md:text-5xl">{t("about.zero")}</h2>
           </div>
           <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {values.map(({ img, title, body }) => (
