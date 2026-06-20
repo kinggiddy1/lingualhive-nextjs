@@ -5,42 +5,44 @@ import { Layout } from "@/components/site/Layout";
 import { Button } from "@/components/ui/button";
 import { useLang } from "@/i18n/LanguageContext";
 
+
+
+
+export function AboutPage() {
+const { t } = useLang();
+
 const values = [
   {
     img: "/assets/value-precision.jpg",
-    title: "Precision",
-    body: "Every word matters. We deliver linguistic accuracy at the highest professional standard — like a fountain pen meeting paper, deliberate and exact.",
+    title: t("about.one"),
+    body: t("about.oneone"),
   },
   {
     img: "/assets/value-cultural.jpg",
-    title: "Cultural fluency",
-    body: "Authentic translations rooted in deep understanding of African languages and the human relationships behind every conversation.",
+    title: t("about.two"),
+    body: t("about.twotwo"),
   },
   {
     img: "/assets/value-innovation.jpg",
-    title: "Innovation",
-    body: "We blend human expertise with modern translation technology and AI-assisted workflows to deliver faster, smarter results.",
+    title: t("about.three"),
+    body: t("about.threethree"),
   },
   {
     img: "/assets/value-inclusion.jpg",
-    title: "Inclusion",
-    body: "Accessible by design — committed to digital inclusion of every voice, every ability, every community we serve.",
+    title: t("about.four"),
+    body: t("about.fourfour"),
   },
   {
     img: "/assets/value-panafrican.jpg",
-    title: "Pan-African reach",
-    body: "From Kigali to the continent: a network of native linguists connecting more than 50 African and global languages.",
+    title: t("about.five"),
+    body: t("about.fivefive"),
   },
   {
     img: "/assets/value-excellence.jpg",
-    title: "Excellence",
-    body: "ISO-grade quality processes, peer review, and continuous improvement — a standard worth a medal on every project.",
+    title: t("about.six"),
+    body: t("about.sixsix"),
   },
 ];
-
-export function AboutPage() {
-  const { t } = useLang();
-
   return (
     <Layout>
       <section className="bg-primary py-24 text-primary-foreground md:py-32">
@@ -88,7 +90,7 @@ export function AboutPage() {
         <div className="mx-auto max-w-7xl px-4 md:px-8">
           <div className="max-w-2xl">
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-magenta">What guides us</p>
-            <h2 className="mt-3 font-display text-4xl font-semibold md:text-5xl">Our values</h2>
+            <h2 className="mt-3 font-display text-4xl font-semibold md:text-5xl">{t("about.two")}</h2>
           </div>
           <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {values.map(({ img, title, body }) => (
