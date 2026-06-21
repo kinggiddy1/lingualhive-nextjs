@@ -110,7 +110,7 @@ export function HomePage() {
           </div>
           <div className="relative">
             <img
-              src="/assets/about-team.jpg"
+              src="/assets/service-localization.jpg"
               alt="LingualHive interpreter at work"
               className="rounded-2xl object-cover"
               width={1280}
