@@ -1,9 +1,9 @@
-export type Lang = "en" | "fr" | "rw";
+export type Lang = "en" | "fr" | "sw";
 
 export const LANGS: { code: Lang; label: string; native: string }[] = [
   { code: "en", label: "English", native: "EN" },
   { code: "fr", label: "Français", native: "FR" },
-  { code: "rw", label: "Kiswahili", native: "SW" },
+  { code: "sw", label: "Kiswahili", native: "SW" },
 ];
 
 type Dict = Record<string, string>;
@@ -137,7 +137,7 @@ export const translations: Record<Lang, Dict> = {
     "nav.contact": "Contact",
     "nav.quote": "Devis gratuit",
 
-    "hero.eyebrow": "Des mots à la sagesse",
+    "hero.eyebrow": "Avec soin et engagement",
     "hero.title": "Des solutions linguistiques qui ouvrent la voie en Afrique.",
     "hero.subtitle": "Nous proposons des solutions complètes alliant services linguistiques professionnels, stratégie de communication et exécution d'événements afin d'aider les organisations à transmettre efficacement leurs messages, à toucher des publics diversifiés et multilingues, et à favoriser une participation inclusive à tous les niveaux de la société.",
     "hero.cta.primary": "Demander un devis",
@@ -249,7 +249,7 @@ export const translations: Record<Lang, Dict> = {
 
     "skip": "Aller au contenu principal",
   },
-  rw: {
+  sw: {
     "nav.home": "Nyumbani",
     "nav.about": "Kuhusu",
     "nav.services": "Huduma",
@@ -257,7 +257,7 @@ export const translations: Record<Lang, Dict> = {
     "nav.contact": "Wasiliana",
     "nav.quote": "Pata bei",
 
-    "hero.eyebrow": "Kuva mu magambo kugeza ku bwenge",
+    "hero.eyebrow": "Kwa uangalifu na kujitolea",
     "hero.title": "Suluhisho za lugha zinazoongoza njia barani Afrika.",
     "hero.subtitle": "Tunatoa suluhisho kamili zinazochanganya huduma za kitaalamu za lugha, mkakati wa mawasiliano, na utekelezaji wa matukio ili kusaidia mashirika katika kuwasilisha ujumbe wao kwa ufanisi, kufikia hadhira mbalimbali na za lugha nyingi, na kukuza ushiriki jumuishi katika ngazi zote za jamii.",
     "hero.cta.primary": "Saba igiciro",
