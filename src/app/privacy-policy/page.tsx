@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
-import { IndustriesPage } from "@/components/pages/industries-page";
+import { PrivacyPolicyPage } from "@/components/pages/policy-page";
 
 export const metadata: Metadata = {
-  title: "Industries — LingualHive Language Solutions",
+  title: "Privacy Policy — LingualHive Language Solutions",
   description:
-    "LingualHive serves government, NGOs, legal, healthcare, media, technology and education sectors with specialised language expertise.",
+    "Learn how LingualHive Ltd collects, uses, stores, and protects your personal information.",
   openGraph: {
-    title: "Industries served by LingualHive",
-    description: "Tailored language expertise for sectors where precision matters.",
+    title: "Privacy Policy — LingualHive",
+    description: "How we collect, use, and protect your personal information.",
   },
 };
 
 export default function Page() {
-  return <IndustriesPage />;
+  return <PrivacyPolicyPage />;
 }
