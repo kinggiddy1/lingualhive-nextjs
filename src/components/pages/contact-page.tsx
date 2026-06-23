@@ -66,8 +66,8 @@ export function ContactPage() {
                   <div className="text-sm font-semibold uppercase tracking-wider text-muted-foreground">
                     {t("contact.phone")}
                   </div>
-                  <a href="tel:+250788000000" className="mt-1 block text-foreground hover:text-magenta">
-                    +250 788 000 000
+                  <a href="tel:+250788925535" className="mt-1 block text-foreground hover:text-magenta">
+                    +250 788 925 535
                   </a>
                 </div>
               </li>
