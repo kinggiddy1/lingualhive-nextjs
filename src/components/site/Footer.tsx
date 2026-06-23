@@ -122,7 +122,7 @@ export function Footer() {
           </p>
           <ul className="flex flex-wrap gap-x-6 gap-y-2">
             <li>
-              <Link href="/" className="hover:text-gold">
+              <Link href="/privacy-policy" className="hover:text-gold">
                 {t("footer.privacy")}
               </Link>
             </li>
