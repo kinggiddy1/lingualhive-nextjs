@@ -265,7 +265,7 @@ export function PrivacyPolicyPage() {
             How we collect, use, and protect your personal information.
           </p>
           <p className="mt-4 text-sm text-primary-foreground/60">
-            Last updated: June 2025
+            Last updated: June 2026
           </p>
         </div>
       </section>
