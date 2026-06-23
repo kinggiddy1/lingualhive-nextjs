@@ -59,7 +59,7 @@ export function ServicesPage() {
       <section className="bg-primary py-24 text-primary-foreground md:py-32">
         <div className="mx-auto max-w-5xl px-4 md:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-gold">{t("services.eyebrow")}</p>
-          <h1 className="mt-4 font-display text-5xl font-semibold leading-tight md:text-6xl">{t("services.title")}</h1>
+          {/* <h1 className="mt-4 font-display text-5xl font-semibold leading-tight md:text-6xl">{t("services.title")}</h1> */}
           <p className="mt-6 max-w-3xl text-lg text-primary-foreground/85 md:text-xl">{t("services.subtitle")}</p>
         </div>
       </section>

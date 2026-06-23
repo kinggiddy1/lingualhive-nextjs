@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     siteName: "LingualHive",
     title: "LingualHive — Language Solutions Across Africa",
     description:
-      "With care and commitment — language solutions that lead the way across Africa.",
+      "With care and commitment",
   },
   twitter: {
     card: "summary_large_image",
     title: "LingualHive — Language Solutions Across Africa",
     description:
-      "With care and commitment — language solutions that lead the way across Africa.",
+      "With care and commitment",
   },
 };
 

@@ -125,7 +125,7 @@ export function HomePage() {
         <div className="mx-auto max-w-7xl px-4 md:px-8">
           <div className="max-w-2xl">
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-magenta">{t("services.eyebrow")}</p>
-            <h2 className="mt-3 font-display text-4xl font-semibold md:text-5xl">{t("services.title")}</h2>
+            {/* <h2 className="mt-3 font-display text-4xl font-semibold md:text-5xl">{t("services.title")}</h2> */}
             <p className="mt-4 text-lg text-muted-foreground">{t("services.subtitle")}</p>
           </div>
 
