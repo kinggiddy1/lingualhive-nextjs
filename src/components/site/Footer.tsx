@@ -127,7 +127,7 @@ export function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/" className="hover:text-gold">
+              <Link href="/terms-policy" className="hover:text-gold">
                 {t("footer.terms")}
               </Link>
             </li>
