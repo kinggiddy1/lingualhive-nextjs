@@ -220,7 +220,7 @@ export function TermsPage() {
           <p className="mt-6 max-w-2xl text-lg text-primary-foreground/85 md:text-xl">
             Please read these terms carefully before using our website or services.
           </p>
-          <p className="mt-4 text-sm text-primary-foreground/60">Last updated: June 2025</p>
+          <p className="mt-4 text-sm text-primary-foreground/60">Last updated: June 2026</p>
         </div>
       </section>
 
