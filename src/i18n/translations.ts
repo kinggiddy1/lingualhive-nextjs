@@ -343,7 +343,7 @@ export const translations: Record<Lang, Dict> = {
     "contact.hours": "Masaa ya kufanya kazi",
     "contact.hoursValue": "Jumatatu–Ijumaa, 8:00–18:00 CAT",
 
-    "footer.tagline": "Kutoka maneno hadi hekima — tunafungua njia.",
+    "footer.tagline": "Kwa uangalifu na kujitolea",
     "footer.company": "Kampuni",
     "footer.services": "Huduma",
     "footer.legal": "Kisheria",
