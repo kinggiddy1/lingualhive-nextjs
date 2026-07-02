@@ -260,8 +260,8 @@ export const translations: Record<Lang, Dict> = {
     "hero.eyebrow": "Kwa uangalifu na kujitolea",
     "hero.title": "Suluhisho za lugha zinazoongoza njia barani Afrika.",
     "hero.subtitle": "Tunatoa suluhisho kamili zinazochanganya huduma za kitaalamu za lugha, mkakati wa mawasiliano, na utekelezaji wa matukio ili kusaidia mashirika katika kuwasilisha ujumbe wao kwa ufanisi, kufikia hadhira mbalimbali na za lugha nyingi, na kukuza ushiriki jumuishi katika ngazi zote za jamii.",
-    "hero.cta.primary": "Saba igiciro",
-    "hero.cta.secondary": "Reba serivisi",
+    "hero.cta.primary": "Pata Nukuu ya Bei",
+    "hero.cta.secondary": "Angalia Huduma",
 
     "trust.title": "Inaaminika na wizara, NGOs na chapa za kimataifa.",
 
