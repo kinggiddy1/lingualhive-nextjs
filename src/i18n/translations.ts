@@ -222,7 +222,7 @@ export const translations: Record<Lang, Dict> = {
     "contact.hours": "Heures d'ouverture",
     "contact.hoursValue": "Lun–Ven, 8h00–18h00 CAT",
 
-    "footer.tagline": "Des mots à la sagesse — nous ouvrons la voie.",
+    "footer.tagline": "Avec soin et engagement",
     "footer.company": "Société",
     "footer.services": "Services",
     "footer.legal": "Mentions légales",
